@@ -57,7 +57,7 @@ body{
 }
 .high::before{
     content: '';
-    background: url('images/up.svg') no-repeat;
+    background: url('images/uparrow.svg') no-repeat;
     width: 10px;
     height: 15px;
     display: inline-block;
@@ -66,7 +66,7 @@ body{
 }
 .low::before{
     content: "";
-    background: url('images/down.svg') no-repeat;
+    background: url('images/downarrow.svg') no-repeat;
     width: 10px;
     height: 15px;
     display: inline-block;
