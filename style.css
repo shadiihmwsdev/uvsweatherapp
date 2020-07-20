@@ -7,7 +7,7 @@
   }
   html::before{
     content: "";
-    background:  url('images/uvs.jpg'); /*; url('images/comp1.jpg') center no-repeat; */
+    background:  url('images/uvs.jpg');
     top: 0;
     left: 0;
     bottom: 0;
@@ -22,8 +22,6 @@ body{
     padding: 0;
     margin-bottom: 80px;   
 }
-
-
 
 .container{
     max-width: 400px;
