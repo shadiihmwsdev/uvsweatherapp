@@ -56,7 +56,7 @@ if(dayOrNightTime(weatherIcon)){
     }
 }else{
     console.log('night');
-    imageTime.setAttribute('src','images/night_image.svg');
+    imageTime.setAttribute('src','images/nightfall_image.svg');
     if(cityName.classList.contains('text-black')){
         cityName.classList.remove('text-black')
     }else{
