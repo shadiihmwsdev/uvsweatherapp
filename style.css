@@ -28,6 +28,9 @@ body{
     min-width: 400px;
     margin-top: 3rem!important;
 }
+.fixed-bottom div{
+    max-height: 100px; 
+}
 .form-control{
 margin-top: 4em;   
 }
@@ -45,7 +48,9 @@ h1{
 .form-control{
     border-radius: 2em;
 }
-
+.search-location{
+    margin-bottom: -8px;
+}
 .back-card{
     border-radius: 40px !important;
 }
@@ -68,6 +73,9 @@ h1{
     font-size: 5em;
     letter-spacing: -5px;
     white-space: nowrap;
+}
+.card-body{
+    margin-top: 36px;
 }
 .card-top{
     max-height: 13rem;
@@ -101,9 +109,11 @@ h1{
 }
 .icon-container{
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    background: #0d0d0e;
+    width: 105px;
+    height: 105px;
+    background: #03070c;
+    border: none;
+    margin-top: -16px;
 }
 .icon-container img{
     margin: auto;
@@ -155,14 +165,35 @@ h1{
   @media only screen and (max-width: 1024px) {
     .container{
         max-width: 100%;
-        min-width: 100%;
+        /* min-width: 100%; */
         margin-top: 3rem!important;
-        max-height: 115vmax;
+        max-height: 100%;
         margin-top: 100px;
         
+    }
+    .fixed-bottom div{
+        max-height: 50px; 
     }
     .card-bottom p{
         font-size: 1.5em;
     }
+    .loadcard{
+        height: 72vh;
+    }
+    .card-body{
+        margin-top: 4rem;
+    }
+    .search-location{
+        margin-bottom: -12px;
+    }
+    .px-5 {
+        padding-right: 3rem!important;
+    }
+    .py-4 {
+        padding-bottom: 0.5rem!important;
+    }
+    .py-4 {
+        padding-top: 0.5rem!important;
   }
   
+  }
